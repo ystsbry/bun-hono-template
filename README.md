@@ -1,2 +1,2 @@
 # bun-hono-template
-bun-hono-template
+くそ雑テンプレート
