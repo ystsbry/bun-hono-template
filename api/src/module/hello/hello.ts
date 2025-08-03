@@ -1,4 +1,4 @@
-import { Context } from "hono";
-import { BlankEnv, BlankInput } from "hono/types";
+import type { Context } from 'hono';
+import type { BlankEnv, BlankInput } from 'hono/types';
 
-export const hello = (c: Context<BlankEnv, "/", BlankInput>) => c.text('Hello Hono!')
+export const hello = (c: Context<BlankEnv, '/', BlankInput>): Response => c.text('Hello Hono!');
