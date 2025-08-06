@@ -4,13 +4,13 @@ FROM oven/bun:1-alpine AS builder
 WORKDIR /app
 
 # Copy package files
-COPY api/package.json api/bun.lock ./
+COPY package.json bun.lock ./
 
 # Install dependencies
 RUN bun install --frozen-lockfile
 
 # Copy source code
-COPY api/ ./
+COPY . ./
 
 # Production stage
 FROM oven/bun:1-alpine

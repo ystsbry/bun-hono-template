@@ -96,8 +96,9 @@ bun-hono-template/
 │   ├── tests/               # テストファイル
 │   ├── package.json
 │   ├── tsconfig.json
-│   └── eslint.config.mjs
-├── compose.yaml             # Docker Compose設定
+│   ├── eslint.config.mjs
+│   ├── compose.yaml         # Docker Compose設定
+│   └── Dockerfile
 └── README.md
 ```
 
